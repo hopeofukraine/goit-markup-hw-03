@@ -389,15 +389,14 @@ button {
   line-height: calc(24 / 20);
   padding-top: 32px;
   margin-bottom: 8px;
-  padding-right: 16px;
 }
 .content-item-desc {
   color: var(--secondary-txt-cl);
   padding-bottom: 32px;
-  padding-right: 16px;
 }
 .text-container {
   border-left: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
+  padding-left: 16px;
 }
