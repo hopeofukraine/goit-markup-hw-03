@@ -201,7 +201,22 @@ button {
   display: flex;
   gap: 24px;
 }
-.features-item {
+.list-item {
+  width: 264px;
+}
+/* .list-item::before {
+  display: block;
+  content: "";
+  height: 112px;
+  background-color: var(--secondary-bg-cl);
+  border-radius: 4px;
+  background-image: url(../images/antenna\ 1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 64px 64px;
+  background-position: center;
+} */
+.features-title {
   font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
@@ -212,7 +227,6 @@ button {
   font-size: 16px;
   line-height: calc(24 / 16);
   color: var(--secondary-txt-cl);
-  width: 264px;
 }
 
 /* Our work */
